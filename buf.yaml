@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/businessocean/common
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+  except:
+    - PACKAGE_VERSION_SUFFIX
+    - ENUM_NO_ALLOW_ALIAS
